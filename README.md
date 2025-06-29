@@ -2,35 +2,35 @@
 
 A modern, full-featured blog application built with React and Firebase, featuring authentication, real-time database, and a beautiful UI.
 
-## 🚀 Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - **Email/Password** sign up and sign in
 - **GitHub OAuth** login
 - User session persistence with localStorage
 - Protected routes for authenticated users
 - Automatic redirect to login for protected pages
 
-### 🔥 Firestore Database
+### Firestore Database
 - Real-time blog posts with fields: `id`, `title`, `content`, `author`, `authorId`, `createdAt`, `updatedAt`, `isAdmin`
 - Only authenticated users can create/edit/delete their own posts
 - Anyone can read all blog posts (public access)
 - User authorization - users can only modify their own content
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 - Beautiful, responsive design with Tailwind CSS
 - Dark/Light theme toggle
 - Smooth animations and transitions
 - Mobile-first responsive design
 - Toast notifications for user feedback
 
-### 📱 Pages & Routes
+### Pages & Routes
 - **Home** (`/`) - Public blog listing with search and filters
 - **Login** (`/login`) - Authentication page
 - **Dashboard** (`/dashboard`) - Protected user dashboard with personal posts
 - **404** - Not found page
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Prerequisites
 - Node.js (v16 or higher)
@@ -89,7 +89,7 @@ npm run dev
 
 The app will be available at `http://localhost:5173`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 client/
@@ -141,7 +141,7 @@ service cloud.firestore {
 4. Copy Client ID and Client Secret
 5. Add them to Firebase Authentication → GitHub provider
 
-## 🚀 Deployment
+## Deployment
 
 ### Netlify (Recommended)
 
@@ -157,7 +157,7 @@ service cloud.firestore {
 2. Run: `vercel`
 3. Add environment variables in Vercel dashboard
 
-## 🎯 Usage
+## Usage
 
 ### For Users
 1. **Browse Posts**: Visit the home page to see all blog posts
@@ -172,7 +172,7 @@ service cloud.firestore {
 - Protected routes automatically redirect to login
 - User authorization is handled at the data level
 
-## 🔒 Security Features
+## Security Features
 
 - **Authentication Required**: Create, edit, delete operations require login
 - **User Authorization**: Users can only modify their own posts
@@ -180,7 +180,7 @@ service cloud.firestore {
 - **Input Validation**: Form validation and error handling
 - **Secure Storage**: User data stored securely in Firebase
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 - Uses Tailwind CSS for styling
@@ -194,7 +194,7 @@ service cloud.firestore {
 - Custom hooks for state management
 - Toast notifications for user feedback
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -214,11 +214,11 @@ service cloud.firestore {
    - Clear node_modules and reinstall: `rm -rf node_modules && npm install`
    - Check for missing dependencies
 
-## 📝 License
+## License
 
 MIT License - feel free to use this project for your own blog!
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
